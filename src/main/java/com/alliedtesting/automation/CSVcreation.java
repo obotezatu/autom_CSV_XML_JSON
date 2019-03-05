@@ -15,7 +15,7 @@ import org.apache.commons.csv.CSVPrinter;
 
 import com.opencsv.CSVWriter;
 
-public class CSVcreate {
+public class CSVcreation {
 
 	public static void openCSVWriteData(String filePath) {
 		File file = new File(filePath);

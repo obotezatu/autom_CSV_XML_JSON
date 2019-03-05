@@ -17,7 +17,7 @@ import org.apache.commons.csv.CSVRecord;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
 
-public class CSVread {
+public class CSVreader {
 
 	public static void commonCSVReadData(String filePath) throws IOException {
 		try (Reader reader = Files.newBufferedReader(Paths.get(filePath));
