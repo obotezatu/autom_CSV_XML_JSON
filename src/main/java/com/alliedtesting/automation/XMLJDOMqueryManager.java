@@ -14,7 +14,7 @@ import org.jdom2.input.SAXBuilder;
 public class XMLJDOMqueryManager {
 
 	public static void main(String[] args) {
-		getManagers("004");
+		getManagers("003");
 	}
 
 	public static void getManagers(String empID) {
@@ -32,6 +32,7 @@ public class XMLJDOMqueryManager {
 					System.out.println(employee.getAttributeValue("empId") + " - " + employee.getChildText("lastName")+ " "+ employee.getChildText("managerId"));
 				}
 			}
+			getChief(empID, employeeMap);
 			String mangerID="";
 			while (!mangerID.equals("0")) {
 				
@@ -43,10 +44,18 @@ public class XMLJDOMqueryManager {
 			e.printStackTrace();
 		}
 	}
-	private void getChief(String empID, Map<String, String> employeeMap) {
-		String managerID = "";
+	private static String getChief(String empID, Map<String, String> employeeMap) {
+		String managerID = empID;
 		if(!managerID.equals("0")) {
-			
+			System.out.print(managerID);
+			managerID = employeeMap.get(managerID);
+			getChief(managerID, employeeMap);
+			/*while (!managerID.equals("0")) {
+				managerID = employeeMap.get(managerID);
+				System.out.print("->" + managerID);
+			}*/
+			//System.out.print("->" +managerID);
 		}
+		return ("->" + managerID);
 	}
 }
