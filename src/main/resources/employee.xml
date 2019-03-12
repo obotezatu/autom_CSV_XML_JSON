@@ -71,9 +71,20 @@
       <position>Chief Executive Officer</position>
       <skills>
         <skill>very strong manager</skill>
-        <skill>лавный исполнительный директор</skill>
+        <skill>исполнительный директор</skill>
       </skills>
       <managerId>0</managerId>
+    </employee>
+    <employee empId="0">
+      <lastName>Smith</lastName>
+      <firstName>Dave</firstName>
+      <birthDate>30.02.1960</birthDate>
+      <position>General</position>
+      <skills>
+        <skill>manager</skill>
+        <skill>smart</skill>
+      </skills>
+      <managerId></managerId>
     </employee>
   </department>
 </company>
