@@ -1,0 +1,86 @@
+{
+	"department":[
+		
+		{
+			"name":"Development",
+			"depId":"1",
+			"employee":[
+			{
+				"empId":"001",
+				"lastName":"Vasilescu",
+				"firstName" : "Vasile",
+				"birthDate" : "01.01.1973",
+				"position" : "Department Manager",
+				"skills" : ["Communication","Java"],
+				"managerId" : "006"
+			},
+			{
+				"empId":"002",
+				"lastName":"Petrescu",
+				"firstName" : "Petru",
+				"birthDate" : "11.12.1985",
+				"position" : "Developer",
+				"skills" : ["Sleeps only 2 hours per day","Overtimes without concerns", "Works for food"],
+				"managerId" : "001"
+			},
+			{
+				"empId":"003",
+				"lastName":"Nicolaescu",
+				"firstName" : "Nicolae",
+				"birthDate" : "21.08.1989",
+				"position" : "Developer Junior",
+				"skills" : ["Sleeps more than 7 hours per day","No overtimes", "Works for idea"],
+				"managerId" : "001"
+			}
+			]
+		},
+		{
+			"name":"Accounting",
+			"depId":"2",
+			"employee":[
+			{
+				"empId":"004",
+				"lastName":"Filipescu",
+				"firstName" : "Filip",
+				"birthDate" : "22.07.1975",
+				"position" : "Manager",
+				"skills" : ["bla bla bla","ko ko ko", "tra ta ta"],
+				"managerId" : "006"
+			},
+			{
+				"empId":"005",
+				"lastName":"Caldare",
+				"firstName" : "Sergiu",
+				"birthDate" : "15.07.1996",
+				"position" : "Accountant",
+				"skills" : ["bla bla bla","ko ko ko", "tra ta ta"],
+				"managerId" : "004"
+			}
+			]
+		},
+		{
+			"name":"Administration",
+			"depId":"5",
+			"employee":[
+			{
+				"empId":"006",
+				"lastName":"Odobescu",
+				"firstName" : "Elena",
+				"birthDate" : "30.01.1999",
+				"position" : "Chief Executive Officer",
+				"skills" : ["very strong manager","исполнительный директор"],
+				"managerId" : "0"
+			},
+			{
+				"empId":"0",
+				"lastName":"Smith",
+				"firstName" : "Dave",
+				"birthDate" : "30.02.1960",
+				"position" : "General",
+				"skills" : ["manager","ko ko ko", "smart"],
+				"managerId" : ""
+			}
+			]
+		}
+	]
+}

@@ -8,7 +8,7 @@ import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
 import javax.xml.stream.XMLStreamConstants;
 
-public class StAXParcerEmployee {
+public class StAXParserEmployee {
 	public static void main(String[] args) {
 		try {
 			XMLInputFactory factory = XMLInputFactory.newInstance();
