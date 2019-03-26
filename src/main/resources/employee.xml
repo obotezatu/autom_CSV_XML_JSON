@@ -71,20 +71,20 @@
       <position>Chief Executive Officer</position>
       <skills>
         <skill>very strong manager</skill>
-        <skill>исполнительный директор</skill>
+        <skill>лавный исполнительный директор</skill>
       </skills>
       <managerId>0</managerId>
     </employee>
-    <employee empId="0">
-      <lastName>Smith</lastName>
-      <firstName>Dave</firstName>
-      <birthDate>30.02.1960</birthDate>
-      <position>General</position>
+     <employee empId="0">
+      <lastName>Olarescu</lastName>
+      <firstName>Vanea</firstName>
+      <birthDate>30.01.2000</birthDate>
+      <position>Chief </position>
       <skills>
         <skill>manager</skill>
-        <skill>smart</skill>
+        <skill>директор</skill>
       </skills>
-      <managerId></managerId>
+      <managerId>0</managerId>
     </employee>
   </department>
 </company>
